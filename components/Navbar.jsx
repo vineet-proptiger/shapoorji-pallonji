@@ -52,7 +52,7 @@ const Navbar = ({ setIsOpen }) => {
             <style>{`
               .nav-logo { height: 68px; width: auto; display: block; object-fit: contain; transform: scale(1.3, 1.15); transform-origin: center; }
               @media(max-width: 768px) {
-                .nav-logo { height: 56px; transform: scale(1.2, 1.1); }
+                .nav-logo { height: 64px; transform: scale(1.2, 1.1); }
               }
             `}</style>
             <img
