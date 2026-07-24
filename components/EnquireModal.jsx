@@ -57,10 +57,10 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <X size={16} />
           </button>
 
-          <div className="p-6 sm:p-7 flex flex-col justify-center flex-1 relative">
+          <div className="p-4 pb-20 sm:p-7 flex flex-col justify-center flex-1 relative">
             
             {/* Compact Side-by-Side Header */}
-            <div className="flex items-center justify-start gap-3 sm:gap-4 mb-4 border-b border-gray-100 pb-4 mt-2">
+            <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-4 mt-1 sm:mt-2">
               <div className="relative w-[90px] sm:w-[100px] h-10 sm:h-12 shrink-0">
                 <Image 
                   src={logoImages.tarc} 
@@ -69,9 +69,9 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                   className="object-contain" 
                 />
               </div>
-              <div className="flex items-center border-l border-gray-200 pl-3 sm:pl-4 min-h-[32px] sm:min-h-[40px]">
+              <div className="flex items-center border-l-0 sm:border-l border-gray-200 sm:pl-4 min-h-[28px] sm:min-h-[40px]">
                 <h3 
-                  className="text-[13.5px] sm:text-[14.5px] font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase whitespace-normal sm:whitespace-nowrap leading-tight" 
+                  className="text-[14px] sm:text-[14.5px] text-center sm:text-left font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase whitespace-normal sm:whitespace-nowrap leading-tight" 
                   style={{ fontFamily: F_JOST }}
                 >
                   Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
@@ -80,7 +80,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             </div>
 
             {/* Trust Badges / USPs */}
-            <div className="bg-[#FAF7F0] rounded-md p-3 px-4 mb-5">
+            <div className="bg-[#FAF7F0] rounded-md p-3 px-3 sm:px-4 mb-3 sm:mb-5">
               <div className="grid grid-cols-2 gap-x-4 gap-y-2.5 text-[13px] font-medium text-[#091E2A]" style={{ fontFamily: F_SANS }}>
                 <div className="flex items-center gap-1.5">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#117937" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>

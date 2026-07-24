@@ -41,7 +41,7 @@ const Location = () => {
           <div className="w-full lg:w-[45%]" data-aos="fade-right" data-aos-delay="100">
             <div style={{ border: '1px solid #D5C2A8', background: '#EAE5DC' }}>
 
-              <div style={{ padding: '26px 24px', background: '#FFF9F0', borderBottom: '1px solid #D5C2A8' }}>
+              {/* <div style={{ padding: '26px 24px', background: '#FFF9F0', borderBottom: '1px solid #D5C2A8' }}>
                 <p style={{
                   fontFamily: F_JOST, fontWeight: '700', fontSize: '16px',
                   color: '#684C1B', margin: 0, lineHeight: 1.4,
@@ -55,7 +55,7 @@ const Location = () => {
                 }}>
                   Shapoorji Pallonji Dualis is positioned for fast access to Gurugram’s best healthcare, education, retail and business hubs. This is the most connected address in the heart of Sector 46.
                 </p>
-              </div>
+              </div> */}
 
               {/* Table Header */}
               <div style={{
