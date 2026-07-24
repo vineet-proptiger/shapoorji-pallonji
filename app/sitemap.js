@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = 'https://shapoorjipallonjidualis.in'
+  const base = 'https://shapoorjipallonjidualis.co.in'
 
   return [
     {

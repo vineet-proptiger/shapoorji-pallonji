@@ -5,7 +5,7 @@ export default function robots() {
       allow: '/',
       disallow: '',
     },
-    sitemap: 'https://shapoorjipallonjidualis.in/sitemap.xml',
+    sitemap: 'https://shapoorjipallonjidualis.co.in/sitemap.xml',
   }
 }
 

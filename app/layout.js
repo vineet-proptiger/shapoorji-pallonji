@@ -33,7 +33,7 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://shapoorjipallonjidualis.in/'),
+  metadataBase: new URL('https://shapoorjipallonjidualis.co.in/'),
   title: 'Shapoorji Pallonji Dualis | 3 & 4 BHK Luxury Residences in Sector 46, Gurgaon',
   description: "Escape to bountiful freshness and host yourself to an impeccable living atmosphere in Gurugram's Sector 46. An exotic green landscape compliments a stupendous 2-acre residential complex.",
 }
