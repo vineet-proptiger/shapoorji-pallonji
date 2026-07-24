@@ -61,7 +61,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             
             {/* Compact Side-by-Side Header */}
             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-4 mt-1 sm:mt-2">
-              <div className="relative w-[110px] sm:w-[130px] h-12 sm:h-16 shrink-0">
+              <div className="relative w-[150px] sm:w-[130px] h-14 sm:h-16 shrink-0">
                 <Image 
                   src={logoImages.main} 
                   alt="Shapoorji Pallonji Dualis Logo" 
