@@ -14,14 +14,14 @@ const Footer = () => (
         SHAPOORJI PALLONJI DUALIS
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-        3.5 & 4.5 BHK Luxury Residences — Sector 46, Gurgaon
+        3 & 4 BHK Luxury Residences — Sector 46, Gurgaon
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '24px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        The luxury residential project, Shapoorji Pallonji Dualis introduces the best 3.5 & 4.5 BHK apartments in Gurugram, Sector 46. Along with bespoke conveniences the reputed developer aims to render privacy.
+        The luxury residential project, Shapoorji Pallonji Dualis introduces the best 3 & 4 BHK apartments in Gurugram, Sector 46. Along with bespoke conveniences the reputed developer aims to render privacy.
       </p>
       
       {/* RERA Block */}

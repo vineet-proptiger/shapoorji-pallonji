@@ -17,7 +17,8 @@ const CarouselSection = ({ setIsOpen, title = "Glimpses of Masterpiece", id = "h
     images[numItems - 1],
     ...images,
     images[0],
-    images[1]
+    images[1] || images[0],
+    images[2] || images[0]
   ].filter(Boolean) : [];
 
   const getRealIndex = (idx) => {
@@ -50,22 +51,31 @@ const CarouselSection = ({ setIsOpen, title = "Glimpses of Masterpiece", id = "h
 
   const nextSlide = () => {
     if (!isTransitioning) return;
-    setIndex((prev) => prev + 1);
+    setIndex((prev) => {
+      if (prev >= numItems + 1) return prev;
+      return prev + 1;
+    });
     setUserInteracted(Date.now());
   }
 
   const prevSlide = () => {
     if (!isTransitioning) return;
-    setIndex((prev) => prev - 1);
+    setIndex((prev) => {
+      if (prev <= 0) return prev;
+      return prev - 1;
+    });
     setUserInteracted(Date.now());
   }
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setIndex((prev) => prev + 1);
+      setIndex((prev) => {
+        if (prev >= numItems + 1) return prev;
+        return prev + 1;
+      });
     }, 4000); // Autoplay every 4s
     return () => clearInterval(timer);
-  }, [userInteracted]);
+  }, [userInteracted, numItems]);
 
   // Handle the seamless jump
   useEffect(() => {
@@ -115,10 +125,10 @@ const CarouselSection = ({ setIsOpen, title = "Glimpses of Masterpiece", id = "h
           100% { width: 100%; }
         }
       `}} />
-      <div className="container mx-auto px-4 md:px-8 max-w-[1200px]" data-aos="fade-up" data-aos-delay="100">
+      <div className="container mx-auto px-4 md:px-8 max-w-[1200px]">
 
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h2 data-aos="flip-left" data-aos-delay="500" style={{
+          <h2 style={{
             fontFamily: F_JOST, fontWeight: '700', fontSize: '17px',
             color: '#684C1B', letterSpacing: '0.1em',
             textTransform: 'uppercase', margin: 0,
@@ -129,7 +139,7 @@ const CarouselSection = ({ setIsOpen, title = "Glimpses of Masterpiece", id = "h
         </div>
 
         {/* ── Main Sliding Track Gallery (Premium & Zero-Flash) ── */}
-        <div className="relative w-full overflow-hidden rounded-lg carousel-container" data-aos="fade-up" data-aos-delay="200">
+        <div className="relative w-full overflow-hidden rounded-lg carousel-container">
           <style dangerouslySetInnerHTML={{ __html: `
             .carousel-container { --slide-w: 100%; }
             @media (min-width: 768px) { .carousel-container { --slide-w: 65%; } }
@@ -211,13 +221,13 @@ const CarouselSection = ({ setIsOpen, title = "Glimpses of Masterpiece", id = "h
 
         {/* ── Bottom Arrows ── */}
         <div className="flex items-center gap-3 mt-6 ml-2">
-          <button onClick={prevSlide} data-aos="fade-up" data-aos-delay="300" className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200 transition-colors">
+          <button onClick={prevSlide} className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200 transition-colors">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="19" y1="12" x2="5" y2="12" />
               <polyline points="12 19 5 12 12 5" />
             </svg>
           </button>
-          <button onClick={nextSlide} data-aos="fade-up" data-aos-delay="400" className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200 transition-colors">
+          <button onClick={nextSlide} className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200 transition-colors">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="5" y1="12" x2="19" y2="12" />
               <polyline points="12 5 19 12 12 19" />

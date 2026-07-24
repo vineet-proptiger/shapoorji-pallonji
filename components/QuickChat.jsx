@@ -53,7 +53,7 @@ export default function QuickChat() {
             <div className="flex flex-wrap justify-start gap-1.5 sm:gap-2.5">
               {[
                 {text: "💰 Current price band", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20the%20current%20price%20band%20for%20Shapoorji%20Pallonji%20Dualis%20at%20Sector%2046%20Gurgaon."},
-                {text: "🏛️ 3.5 & 4.5 BHK floor plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%203.5%20and%204.5%20BHK%20floor%20plan%20for%20Shapoorji%20Pallonji%20Dualis."},
+                {text: "🏛️ 3 & 4 BHK floor plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%203%20and%204%20BHK%20floor%20plan%20for%20Shapoorji%20Pallonji%20Dualis."},
                 {text: "🚗 Book a site visit", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20to%20book%20a%20site%20visit%20for%20Shapoorji%20Pallonji%20Dualis%2C%20at%20Sector%2046%20Gurgaon.%20My%20preferred%20day%20is%3A"},
                 {text: "🌍 NRI investment guide", link: "https://wa.me/919718344024?text=Hi%2C%20I%20am%20an%20NRI%20buyer%20%E2%80%94%20please%20share%20the%20Shapoorji%20Pallonji%20Dualis%20NRI%20investment%20guide."},
                 {text: "📐 Payment plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Shapoorji%20Pallonji%20Dualis%20payment%20plan%20and%20instalment%20schedule."},

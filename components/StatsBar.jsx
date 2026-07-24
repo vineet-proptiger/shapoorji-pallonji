@@ -1,7 +1,7 @@
 const stats = [
   { value: '198',    label: 'Total Units' },
   { value: '2', label: 'High-Rise Towers' },
-  { value: '3.5 & 4.5', label: 'BHK Configurations' },
+  { value: '3 & 4', label: 'BHK Configurations' },
   { value: 'G+40', label: 'Floors' },
 ]
 

@@ -57,7 +57,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <X size={16} />
           </button>
 
-          <div className="p-4 pb-20 sm:p-7 flex flex-col justify-center flex-1 relative">
+          <div className="p-4 sm:p-7 flex flex-col justify-center flex-1 relative">
             
             {/* Compact Side-by-Side Header */}
             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-4 mt-1 sm:mt-2">

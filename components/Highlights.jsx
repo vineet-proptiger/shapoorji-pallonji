@@ -115,12 +115,21 @@ const IconWaves = () => (
     <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
   </svg>
 )
+const IconMapPin = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
+    stroke="white" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+    <circle cx="12" cy="10" r="3" />
+  </svg>
+)
 
 const highlights = [
-  { title: 'SKYLINE VIEWS', desc: 'Uninterrupted Skyline Views from Every Unit.', Icon: IconMountain },
-  { title: 'LAWN AND GAZEBO', desc: 'Lawn and Gazebo with Trellis for a peaceful environment.', Icon: IconTrees },
-  { title: '3-SIDE VIEW', desc: 'Premium 3.5 & 4.5 BHK apartments with 3-side view.', Icon: IconBuilding },
-  { title: 'DESIGNER LOBBY', desc: 'Double Height, Air-Conditioned Designer Lobby.', Icon: IconSmart },
+  { title: 'GLOBAL DESIGN EXCELLENCE', desc: 'Crafted by Shapoorji Pallonji with globally renowned consultants.', Icon: IconBuilding },
+  { title: 'PANORAMIC SKYLINE VIEWS', desc: 'Enjoy breathtaking panoramic skyline views from every residence.', Icon: IconMountain },
+  { title: '270° WRAPAROUND BALCONIES', desc: 'Expansive wraparound balconies offering spectacular 270° views.', Icon: IconSunCloud },
+  { title: '3-SIDE OPEN RESIDENCES', desc: 'Thoughtfully designed homes with abundant light and cross ventilation.', Icon: IconWind },
+  { title: '60,000 SQ. FT. CLUBHOUSE', desc: 'A grand clubhouse with world-class leisure and wellness amenities.', Icon: IconWaves },
+  { title: 'PRIME LOCATION', desc: 'Strategically located in Sector 46 with seamless city connectivity.', Icon: IconMapPin },
 ]
 
 const Highlights = ({ setIsOpen }) => (
@@ -149,7 +158,7 @@ const Highlights = ({ setIsOpen }) => (
       >
         <CurvedCorners bg={BG} />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-[1px]" style={{ background: BORDER_COLOR }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[1px]" style={{ background: BORDER_COLOR }}>
           {highlights.map(({ title, desc, Icon }, i) => (
             <div key={i} data-aos="flip-left" data-aos-delay={i * 100} style={{
               padding: '36px 20px 28px',

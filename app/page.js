@@ -1,5 +1,5 @@
 'use client' 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import { galleryInteriorImages, galleryExteriorImages } from '../lib/images'
 
@@ -29,6 +29,19 @@ const AosInit = dynamic(() => import('../components/AosInit'), { ssr: false })
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    const initialTimer = setTimeout(() => setIsOpen(true), 15000)
+    return () => clearTimeout(initialTimer)
+  }, [])
+
+  useEffect(() => {
+    let intervalTimer;
+    if (!isOpen) {
+      intervalTimer = setTimeout(() => setIsOpen(true), 30000)
+    }
+    return () => clearTimeout(intervalTimer)
+  }, [isOpen])
 
   return (
     <main className="relative min-h-screen bg-white">

@@ -8,10 +8,7 @@ const slides = [
   { img: heroImages.banner2 }
 ]
 
-const mobileSlides = [
-  { img: heroImages.smDevice },
-  { img: heroImages.smDevice }
-]
+
 
 const Hero = ({ setIsOpen }) => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -173,7 +170,7 @@ const Hero = ({ setIsOpen }) => {
         }
 
         .desktop-hero-image {
-          animation: heroZoomInOut 25s ease-in-out infinite;
+          animation: heroZoomInOut 15s ease-in-out infinite;
           transform-origin: center center;
           will-change: transform;
         }
@@ -353,7 +350,7 @@ const Hero = ({ setIsOpen }) => {
 
       {/* ── Mobile Carousel ── */}
       <div className="hero-slider-wrapper grid md:hidden">
-        {mobileSlides.map((slide, index) => (
+        {slides.map((slide, index) => (
           <div 
             key={index} 
             className={`slide-layer ${index === currentSlide ? 'active' : ''}`}
@@ -362,7 +359,7 @@ const Hero = ({ setIsOpen }) => {
             <Image
               src={slide.img}
               alt={`Mobile Banner ${index + 1}`}
-              width={768}
+              width={1920}
               height={800}
               className="hero-image desktop-hero-image"
               priority={index === 0}
@@ -391,7 +388,7 @@ const Hero = ({ setIsOpen }) => {
             <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {[
                 'Status - New Launch',
-                'Configuration: Premium 3.5 & 4.5 BHK Apartments',
+                'Configuration: Premium 3 & 4 BHK Apartments',
                 'Towers: 2 High-Rise Towers (G+40 floors)',
                 'Total Units: 198 Apartments'
               ].map((text, i) => (
@@ -408,7 +405,7 @@ const Hero = ({ setIsOpen }) => {
 
             {/* Restored Subtitle */}
             <p className="hero-price-line" data-aos="fade-up" data-aos-delay="1300" style={{ marginBottom: '0px' }}>
-              3.5 &amp; 4.5 BHK LUXURY RESIDENCES
+              3 &amp; 4 BHK LUXURY RESIDENCES
             </p>
 
             {/* CTA Row */}
@@ -420,7 +417,7 @@ const Hero = ({ setIsOpen }) => {
                   className="btn-gold-outline hero-btn-one"
                   style={{ fontSize: '14px', padding: '11px 22px', pointerEvents: 'none', fontWeight: '700', textTransform: 'none' }}
                 >
-                  Price starts <span className="hero-price-amt" style={{ fontSize: '15px', marginLeft: '6px' }}>₹ 7.27 Cr*</span>
+                  Price starts <span className="hero-price-amt" style={{ fontSize: '15px', marginLeft: '6px' }}>₹ 6.99 Cr*</span>
                 </div>
               </div>
 

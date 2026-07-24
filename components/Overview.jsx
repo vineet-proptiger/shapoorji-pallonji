@@ -93,7 +93,7 @@ const Overview = ({ setIsOpen }) => {
             marginTop: 0, marginBottom: '24px',
             textAlign: 'justify',
           }}>
-            Escape to bountiful freshness and host yourself to an impeccable living atmosphere in Gurugram's Sector 46. An exotic green landscape compliments a stupendous 2-acre residential complex. The luxury residential project, Shapoorji Pallonji Dualis introduces the best 3.5 & 4.5 BHK apartments in Gurugram, Sector 46. Along with bespoke conveniences the reputed developer aims to render privacy. The state-of-the-art Clubhouse and water bodies here are idyllic places to relax and rejuvenate. The strategic positioning of Shapoorji Pallonji Dualis in Gurugram makes way for unclogged travel via Sohna Road, Udyog Road, and Cyber City Road in a radius of 20 minutes.
+            Escape to bountiful freshness and host yourself to an impeccable living atmosphere in Gurugram's Sector 46. An exotic green landscape compliments a stupendous 2-acre residential complex. The luxury residential project, Shapoorji Pallonji Dualis introduces the best 3 & 4 BHK apartments in Gurugram, Sector 46. Along with bespoke conveniences the reputed developer aims to render privacy. The state-of-the-art Clubhouse and water bodies here are idyllic places to relax and rejuvenate. The strategic positioning of Shapoorji Pallonji Dualis in Gurugram makes way for unclogged travel via Sohna Road, Udyog Road, and Cyber City Road in a radius of 20 minutes.
           </p>
 
           {/* Info Box */}
