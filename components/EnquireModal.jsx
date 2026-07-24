@@ -63,7 +63,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-4 mt-1 sm:mt-2">
               <div className="relative w-[90px] sm:w-[100px] h-10 sm:h-12 shrink-0">
                 <Image 
-                  src={logoImages.tarc} 
+                  src={logoImages.main} 
                   alt="Shapoorji Pallonji Dualis Logo" 
                   fill 
                   className="object-contain" 

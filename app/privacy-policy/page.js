@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
                 .privacy-logo { height: 46px; transform: scale(1.2, 1.1); transform-origin: left center; }
               }
             `}</style>
-            <img src={logoImages.tarc} alt="Shapoorji Pallonji Dualis" className="privacy-logo" />
+            <img src={logoImages.main} alt="Shapoorji Pallonji Dualis" className="privacy-logo" />
           </Link>
           <Link
             href="/"

@@ -56,7 +56,7 @@ const Navbar = ({ setIsOpen }) => {
               }
             `}</style>
             <img
-              src={logoImages.tarc}
+              src={logoImages.main}
               alt="Shapoorji Pallonji Dualis"
               className="nav-logo"
             />

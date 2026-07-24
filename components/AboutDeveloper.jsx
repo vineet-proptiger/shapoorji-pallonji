@@ -225,7 +225,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.85, fontSize: '14px', margin: '0 0 14px', textAlign: 'justify' }}>
-                <TypewriterText text="Shapoorji Pallonji is one of India's most trusted real estate developers, with a legacy spanning over 150 years. Known for delivering iconic structures and premium residential communities, Shapoorji Pallonji blends architectural brilliance with modern sustainability. The group has successfully developed numerous landmark projects across India, ensuring unparalleled quality, timely delivery, and a superior lifestyle for thousands of families." />
+                <TypewriterText text="Shapoorji Pallonji and Company Pvt. Ltd. is a global, diversified organisation of 15 major companies. We deliver end-to-end solutions in 6 business segments, including engineering & construction, infrastructure, real estate, water, energy and financial services. Our dedicated workforce of over 33,000+ people in over 40 countries is focused on sustainable development while developing megastructures and iconic landmarks." />
               </p>
             </div>
 
