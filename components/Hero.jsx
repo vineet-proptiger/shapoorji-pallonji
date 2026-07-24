@@ -9,8 +9,8 @@ const slides = [
 ]
 
 const mobileSlides = [
-  { img: '/images/hero/smDevice1.webp' },
-  { img: '/images/hero/smDevice2.webp' }
+  { img: heroImages.smDevice },
+  { img: heroImages.smDevice }
 ]
 
 const Hero = ({ setIsOpen }) => {
@@ -46,7 +46,7 @@ const Hero = ({ setIsOpen }) => {
           bottom: 0;
           left: 0;
           z-index: 10;
-          padding: 100px 80px 160px 44px; /* Increased bottom padding to move content up */
+          padding: 100px 80px 72px 44px;
           width: 100%;
           max-width: 800px;
           background: radial-gradient(
@@ -180,7 +180,18 @@ const Hero = ({ setIsOpen }) => {
 
         /* ─── Desktop ─── */
         @media (min-width: 1024px) {
-          /* Let the image define the container height to prevent cropping */
+          .hero-container {
+            aspect-ratio: 21/9;
+          }
+          .slide-layer {
+            position: absolute;
+            height: 100%;
+          }
+          .hero-image {
+            height: 100%;
+            object-fit: cover;
+            object-position: center 80%;
+          }
         }
 
         .carousel-dots {
@@ -205,8 +216,20 @@ const Hero = ({ setIsOpen }) => {
 
         /* ─── Tablet ─── */
         @media (min-width: 768px) and (max-width: 1023px) {
+          .hero-container {
+            aspect-ratio: 16/7;
+          }
+          .slide-layer {
+            position: absolute;
+            height: 100%;
+          }
+          .hero-image {
+            height: 100%;
+            object-fit: cover;
+            object-position: center 80%;
+          }
           .hero-content {
-            padding: 0 28px 110px !important; /* Increased bottom padding */
+            padding: 0 28px 56px !important;
           }
         }
 
