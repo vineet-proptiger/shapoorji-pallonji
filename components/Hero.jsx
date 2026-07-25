@@ -348,25 +348,19 @@ const Hero = ({ setIsOpen }) => {
         ))}
       </div>
 
-      {/* ── Mobile Carousel ── */}
+      {/* ── Mobile Static Image ── */}
       <div className="hero-slider-wrapper grid md:hidden">
-        {slides.map((slide, index) => (
-          <div 
-            key={index} 
-            className={`slide-layer ${index === currentSlide ? 'active' : ''}`}
-            style={{ gridArea: '1 / 1 / 2 / 2' }}
-          >
-            <Image
-              src={slide.img}
-              alt={`Mobile Banner ${index + 1}`}
-              width={1920}
-              height={800}
-              className="hero-image desktop-hero-image"
-              priority={index === 0}
-              sizes="100vw"
-            />
-          </div>
-        ))}
+        <div className="slide-layer active" style={{ gridArea: '1 / 1 / 2 / 2' }}>
+          <Image
+            src={heroImages.smDevice}
+            alt="Mobile Banner"
+            width={768}
+            height={800}
+            className="hero-image desktop-hero-image"
+            priority={true}
+            sizes="100vw"
+          />
+        </div>
       </div>
 
       {/* ── Dark overlay for text legibility ── */}
