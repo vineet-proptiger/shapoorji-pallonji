@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { galleryInteriorImages, galleryExteriorImages } from '../lib/images'
 
-const galleryImages = [...galleryInteriorImages, ...galleryExteriorImages]
+const galleryImages = [...galleryExteriorImages, ...galleryInteriorImages]
 
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 

@@ -59,9 +59,9 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
 
           <div className="p-4 sm:p-7 flex flex-col justify-center flex-1 relative">
             
-            {/* Compact Side-by-Side Header */}
-            <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-4 mt-1 sm:mt-2">
-              <div className="relative w-[150px] sm:w-[130px] h-14 sm:h-16 shrink-0">
+            {/* Header - Logo on top, Title below */}
+            <div className="flex flex-col items-center justify-center gap-2 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-3.5 mt-1 sm:mt-2">
+              <div className="relative w-[160px] sm:w-[170px] h-14 sm:h-16 shrink-0">
                 <Image 
                   src={logoImages.main} 
                   alt="Shapoorji Pallonji Dualis Logo" 
@@ -69,9 +69,9 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                   className="object-contain" 
                 />
               </div>
-              <div className="flex items-center border-l-0 sm:border-l border-gray-200 sm:pl-4 min-h-[28px] sm:min-h-[40px]">
+              <div className="flex items-center text-center mt-0.5">
                 <h3 
-                  className="text-[14px] sm:text-[14.5px] text-center sm:text-left font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase whitespace-normal sm:whitespace-nowrap leading-tight" 
+                  className="text-[15px] sm:text-[16px] text-center font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase leading-tight" 
                   style={{ fontFamily: F_JOST }}
                 >
                   Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
@@ -88,7 +88,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 </div>
                 <div className="flex items-center gap-1.5">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#117937" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
-                  <span>RERA Verified</span>
+                  <span>RERA Approved</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#117937" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>

@@ -144,7 +144,7 @@ const Highlights = ({ setIsOpen }) => (
           textTransform: 'uppercase', margin: 0,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
-          PROJECT HIGHLIGHTS &amp; USPs
+          Designed for Comfort, Wellness &amp; Leisure At Shapoorji Dualis Sector 46
         </h2>
       </div>
 

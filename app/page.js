@@ -51,8 +51,8 @@ export default function Home() {
       <Overview setIsOpen={setIsOpen} />
       {/* <ExploreVideo /> */}
       {/* <Gallery setIsOpen={setIsOpen} /> */}
-      <CarouselSection setIsOpen={setIsOpen} title="Glimpses of the Interior Masterpiece" id="interior-masterpiece" images={galleryInteriorImages} />
       <CarouselSection setIsOpen={setIsOpen} title="Glimpses of the Exterior Masterpiece" id="exterior-masterpiece" images={galleryExteriorImages} />
+      <CarouselSection setIsOpen={setIsOpen} title="Glimpses of the Interior Masterpiece" id="interior-masterpiece" images={galleryInteriorImages} />
       {/* <Amenities setIsOpen={setIsOpen} /> */}
       {/* <ExclusiveAmenities /> */}
       <Highlights setIsOpen={setIsOpen} />
