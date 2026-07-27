@@ -28,10 +28,10 @@ const CurvedCorners = ({ bg = '#fff' }) => {
 }
 
 const infoItems = [
-  { label: 'Status',             value: 'New Launch', bgColor: '#FDF8F6' },
-  { label: 'Floors',             value: 'G+40', bgColor: '#FFFDF2' },
-  { label: 'Units',              value: '198', bgColor: '#F4FAF4' },
-  { label: 'Total\u00A0Project\nArea', value: '2 ACRES', bgColor: '#F2FAFD' },
+  { label: 'Project Status',         value: 'New Launch', bgColor: '#FDF8F6' },
+  { label: 'Architectural Landmark', value: 'G+40 Luxury Floors', bgColor: '#FFFDF2' },
+  { label: 'Limited Collection',     value: '198 Residences', bgColor: '#F4FAF4' },
+  { label: 'Prime Development',      value: '2 Acres', bgColor: '#F2FAFD' },
 ]
 
 const Overview = ({ setIsOpen }) => {
@@ -98,7 +98,7 @@ const Overview = ({ setIsOpen }) => {
 
           {/* Info Box */}
           <div
-            className="hidden lg:block"
+            className="block mt-6 lg:mt-4"
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -115,20 +115,20 @@ const Overview = ({ setIsOpen }) => {
             {infoItems.map((item, i) => (
               <div key={i} className="flex flex-col justify-center" style={{
                 background: item.bgColor || '#fff',
-                padding: '20px 8px',
+                padding: '18px 12px',
                 textAlign: 'left',
               }}>
                 <div data-aos="fade" data-aos-delay={600 + i * 150} data-aos-duration="800">
                   <p style={{
-                    fontFamily: F_JOST, fontSize: '10px', fontWeight: '500',
-                    color: '#b5a99a', letterSpacing: '0.18em',
-                    textTransform: 'uppercase', margin: '0 0 8px',
+                    fontFamily: F_JOST, fontSize: '11px', fontWeight: '600',
+                    color: '#9E8B75', letterSpacing: '0.06em',
+                    textTransform: 'uppercase', margin: '0 0 6px',
                   }}>
-                    {item.label}:
+                    {item.label}
                   </p>
                   <p className="whitespace-normal" style={{
-                    fontFamily: F_JOST, fontSize: '12px', fontWeight: '700',
-                    color: '#3A2A0E', letterSpacing: '0.05em',
+                    fontFamily: F_JOST, fontSize: '13.5px', fontWeight: '700',
+                    color: '#3A2A0E', letterSpacing: '0.04em',
                     textTransform: 'uppercase', margin: 0,
                   }}>
                     {item.value}
