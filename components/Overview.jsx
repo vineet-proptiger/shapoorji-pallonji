@@ -1,5 +1,6 @@
 'use client'
 
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { overviewImage } from '../lib/images'
 
@@ -35,6 +36,7 @@ const infoItems = [
 ]
 
 const Overview = ({ setIsOpen }) => {
+  const [isExpanded, setIsExpanded] = useState(false)
   
   return (
     <section
@@ -93,7 +95,49 @@ const Overview = ({ setIsOpen }) => {
             marginTop: 0, marginBottom: '24px',
             textAlign: 'justify',
           }}>
-            Discover a new benchmark of luxury living at Shapoorji Pallonji The Dualis, an exclusive residential address in the heart of Sector 46, Gurugram. Developed by the renowned Shapoorji Pallonji Group with a legacy of over 150 years, this premium project offers thoughtfully crafted 3 & 4 BHK residences featuring spacious layouts, expansive balconies, abundant natural light, and premium specifications. Residents can enjoy a 60,000 sq. ft. clubhouse, 50+ world-class amenities, landscaped gardens, wellness zones, sports facilities, and dedicated spaces for recreation and relaxation. Strategically located with seamless connectivity to NH-48, Golf Course Road, Sohna Road, and HUDA City Centre Metro, the project is also close to Medanta Hospital, leading schools, shopping destinations, and major business hubs, making it an ideal choice for both end-users and investors seeking a luxurious lifestyle in Gurugram.use this in overview description.
+            {isExpanded ? (
+              <>
+                Discover a new benchmark of luxury living at Shapoorji Pallonji The Dualis, an exclusive residential address in the heart of Sector 46, Gurugram. Developed by the renowned Shapoorji Pallonji Group with a legacy of over 150 years, this premium project offers thoughtfully crafted 3 & 4 BHK residences featuring spacious layouts, expansive balconies, abundant natural light, and premium specifications. Residents can enjoy a 60,000 sq. ft. clubhouse, 50+ world-class amenities, landscaped gardens, wellness zones, sports facilities, and dedicated spaces for recreation and relaxation. Strategically located with seamless connectivity to NH-48, Golf Course Road, Sohna Road, and HUDA City Centre Metro, the project is also close to Medanta Hospital, leading schools, shopping destinations, and major business hubs, making it an ideal choice for both end-users and investors seeking a luxurious lifestyle in Gurugram.{' '}
+                <button
+                  onClick={() => setIsExpanded(false)}
+                  style={{
+                    fontFamily: F_JOST,
+                    fontWeight: '700',
+                    fontSize: '13.5px',
+                    color: '#C9A96E',
+                    background: 'transparent',
+                    border: 'none',
+                    cursor: 'pointer',
+                    padding: '0 0 0 4px',
+                    textDecoration: 'underline',
+                    display: 'inline',
+                  }}
+                >
+                  Read Less
+                </button>
+              </>
+            ) : (
+              <>
+                Discover a new benchmark of luxury living at Shapoorji Pallonji The Dualis, an exclusive residential address in the heart of Sector 46, Gurugram. Developed by the renowned Shapoorji Pallonji Group with a legacy of over 150 years, this premium project offers thoughtfully crafted 3 & 4 BHK residences featuring spacious layouts, expansive balconies, abundant natural light, and premium specifications. Residents can enjoy a 60,000 sq. ft. clubhouse, 50+ world-class amenities, landscaped gardens, wellness zones, sports facilities, and dedicated spaces...{' '}
+                <button
+                  onClick={() => setIsExpanded(true)}
+                  style={{
+                    fontFamily: F_JOST,
+                    fontWeight: '700',
+                    fontSize: '13.5px',
+                    color: '#C9A96E',
+                    background: 'transparent',
+                    border: 'none',
+                    cursor: 'pointer',
+                    padding: '0 0 0 2px',
+                    textDecoration: 'underline',
+                    display: 'inline',
+                  }}
+                >
+                  Read More
+                </button>
+              </>
+            )}
           </p>
 
           {/* Info Box */}
@@ -149,7 +193,7 @@ const Overview = ({ setIsOpen }) => {
               alt="Shapoorji Pallonji Dualis Overview" 
               width={1000}
               height={1200}
-              className="w-[95%] lg:w-[95%] xl:w-full h-auto object-contain mx-auto rounded-lg shadow-lg"
+              className="w-[90%] lg:w-[80%] xl:w-[80%] h-auto object-contain mx-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
