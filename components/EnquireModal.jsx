@@ -57,11 +57,11 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <X size={16} />
           </button>
 
-          <div className="p-4 sm:p-7 flex flex-col justify-center flex-1 relative">
+          <div className="px-4 sm:px-7 pb-4 sm:pb-7 pt-2 sm:pt-3 flex flex-col justify-center flex-1 relative">
             
             {/* Header - Logo on top, Title below */}
-            <div className="flex flex-col items-center justify-center gap-2 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-3.5 mt-1 sm:mt-2">
-              <div className="relative w-[160px] sm:w-[170px] h-14 sm:h-16 shrink-0">
+            <div className="flex flex-col items-center justify-center gap-2 mb-3 sm:mb-4 border-b border-gray-100 pb-3 sm:pb-3.5 mt-0">
+              <div className="relative w-[230px] sm:w-[260px] h-[76px] sm:h-[86px] shrink-0">
                 <Image 
                   src={logoImages.main} 
                   alt="Shapoorji Pallonji Dualis Logo" 
