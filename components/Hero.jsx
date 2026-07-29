@@ -381,9 +381,9 @@ const Hero = ({ setIsOpen }) => {
             {/* Bullet Points */}
             <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {[
-                "Exclusive 20:80 Payment Plan",
-                "Exclusive 3 & 4 BHK Ultra Luxury Residences",
-                "Developed & Constructed by globally renowned Shapoorji Pallonji",
+                "Only 2 Iconic High-Rise Residential Towers",
+                "Large East-Facing Wraparound Balconies",
+                "150+ Years of Engineering Excellence",
                 "By the Makers of India's Iconic Atal Setu"
               ].map((text, i) => (
                 <div key={i} className="hero-bullet-item" data-aos="fade-left" data-aos-delay={(i * 200) + 300} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

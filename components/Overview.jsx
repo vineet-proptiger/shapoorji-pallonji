@@ -93,12 +93,12 @@ const Overview = ({ setIsOpen }) => {
             marginTop: 0, marginBottom: '24px',
             textAlign: 'justify',
           }}>
-            Escape to bountiful freshness and host yourself to an impeccable living atmosphere in Gurugram's Sector 46. An exotic green landscape compliments a stupendous 2-acre residential complex. The luxury residential project, Shapoorji Pallonji Dualis introduces the best 3 & 4 BHK apartments in Gurugram, Sector 46. Along with bespoke conveniences the reputed developer aims to render privacy. The state-of-the-art Clubhouse and water bodies here are idyllic places to relax and rejuvenate. The strategic positioning of Shapoorji Pallonji Dualis in Gurugram makes way for unclogged travel via Sohna Road, Udyog Road, and Cyber City Road in a radius of 20 minutes.
+            Discover a new benchmark of luxury living at Shapoorji Pallonji The Dualis, an exclusive residential address in the heart of Sector 46, Gurugram. Developed by the renowned Shapoorji Pallonji Group with a legacy of over 150 years, this premium project offers thoughtfully crafted 3 & 4 BHK residences featuring spacious layouts, expansive balconies, abundant natural light, and premium specifications. Residents can enjoy a 60,000 sq. ft. clubhouse, 50+ world-class amenities, landscaped gardens, wellness zones, sports facilities, and dedicated spaces for recreation and relaxation. Strategically located with seamless connectivity to NH-48, Golf Course Road, Sohna Road, and HUDA City Centre Metro, the project is also close to Medanta Hospital, leading schools, shopping destinations, and major business hubs, making it an ideal choice for both end-users and investors seeking a luxurious lifestyle in Gurugram.use this in overview description.
           </p>
 
           {/* Info Box */}
           <div
-            className="block mt-6 lg:mt-4"
+            className="block mt-6 lg:mt-4"  
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -149,7 +149,7 @@ const Overview = ({ setIsOpen }) => {
               alt="Shapoorji Pallonji Dualis Overview" 
               width={1000}
               height={1200}
-              className="w-[95%] lg:w-[75%] h-auto object-contain mx-auto rounded-lg shadow-lg"
+              className="w-[95%] lg:w-[95%] xl:w-full h-auto object-contain mx-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
