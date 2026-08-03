@@ -40,7 +40,6 @@ const ContactCTA = () => {
       const res = await fetch(API_ENDPOINT, { method: 'POST', body: payload })
       const data = await res.json()
       if (data.status) {
-        if (typeof window !== 'undefined') localStorage.setItem('_lsub_done', '1')
         setSuccess(true)
         if (typeof window !== 'undefined') {
           window.dataLayer = window.dataLayer || []
