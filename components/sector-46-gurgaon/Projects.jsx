@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from 'react'
-import Image from 'next/image'
 import { projectImages } from '../../lib/sector-46-gurgaon/images'
 
 const Projects = ({ setIsOpen }) => {
@@ -137,13 +136,11 @@ const Projects = ({ setIsOpen }) => {
               onClick={() => setIsOpen && setIsOpen(true)}
             >
               <div className="project-img-wrapper">
-                <Image
+                <img
                   src={item.src}
                   alt={item.alt || item.label}
-                  fill
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                  style={{ objectFit: 'cover' }}
-                  priority={index < 4}
+                  className="w-full h-full object-cover block"
+                  loading={index < 4 ? "eager" : "lazy"}
                 />
               </div>
               <div className="project-label-box">
