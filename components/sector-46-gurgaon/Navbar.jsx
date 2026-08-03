@@ -162,6 +162,7 @@ const Navbar = ({ setIsOpen }) => {
           background-color: #fff !important;
           padding: 2px 18px !important;
           border-radius: 12px !important;
+          overflow: hidden !important;
           box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1) !important;
           margin: 0 !important;
           transition: box-shadow 0.3s ease !important;
@@ -220,10 +221,10 @@ const Navbar = ({ setIsOpen }) => {
           height: 64px !important;
           min-height: 64px !important;
           width: auto !important;
-          flex-shrink: 0 !important;
           display: block;
           object-fit: contain;
-          transform: none !important;
+          transform: scale(1.18) !important;
+          transform-origin: center center !important;
           transition: none !important;
         }
 
@@ -256,6 +257,8 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2.scrolled-up-expanded .nav-logo {
             height: 58px !important;
             min-height: 58px !important;
+            transform: scale(1.18) !important;
+            transform-origin: center center !important;
           }
         }
 
@@ -289,6 +292,8 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2.scrolled-up-expanded .nav-logo {
             height: 68px !important;
             min-height: 68px !important;
+            transform: scale(1.18) !important;
+            transform-origin: center center !important;
           }
         }
 
@@ -322,6 +327,8 @@ const Navbar = ({ setIsOpen }) => {
           .header_style2.scrolled-up-expanded .nav-logo {
             height: 76px !important;
             min-height: 76px !important;
+            transform: scale(1.18) !important;
+            transform-origin: center center !important;
           }
         }
 
@@ -378,6 +385,7 @@ const Navbar = ({ setIsOpen }) => {
             align-items: center !important;
             margin: 0 !important;
             padding: 0 !important;
+            overflow: visible !important;
             transition: none !important;
           }
           
@@ -396,6 +404,7 @@ const Navbar = ({ setIsOpen }) => {
             border-radius: 0 !important;
             min-width: unset !important;
             flex: 0 0 auto !important;
+            overflow: visible !important;
             transition: none !important;
             transform: none !important;
           }
@@ -411,7 +420,8 @@ const Navbar = ({ setIsOpen }) => {
             visibility: visible !important;
             margin-left: 0 !important;
             transition: none !important;
-            transform: none !important;
+            transform: scale(1.15) !important;
+            transform-origin: left center !important;
           }
           
           .mob_nav_trigger {
