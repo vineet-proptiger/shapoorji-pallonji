@@ -9,10 +9,10 @@ export default function sitemap() {
       priority: 1.0,
     },
     {
-      url: base + '/privacy-policy',
+      url: base + '/sector-46-gurgaon',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
   ]
 }

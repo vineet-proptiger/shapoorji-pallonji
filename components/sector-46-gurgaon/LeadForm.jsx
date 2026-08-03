@@ -91,7 +91,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
       {/* <div className="flex items-start gap-2 mt-3">
         <input type="checkbox" id="privacy-lead" required defaultChecked className="mt-0.5 shrink-0" style={{ accentColor: GOLD }} />
         <label htmlFor="privacy-lead" className={`text-xs leading-relaxed cursor-pointer ${isTransparent ? 'text-gray-400' : 'text-gray-500'}`} style={{ fontFamily: F_SANS }}>
-          I agree to receive updates as per the <Link href="/privacy-policy" className={`underline ${isTransparent ? 'hover:text-white' : 'hover:text-[var(--color-gold)]'}`} title="Read our Privacy Policy">Privacy Policy</Link>
+          I agree to receive updates as per the <Link href="/sector-46-gurgaon/privacy-policy" className={`underline ${isTransparent ? 'hover:text-white' : 'hover:text-[var(--color-gold)]'}`} title="Read our Privacy Policy">Privacy Policy</Link>
         </label>
       </div> */}
 

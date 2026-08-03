@@ -26,17 +26,17 @@ export default function PrivacyPolicy() {
         <div className="h-0.5 w-full" style={{ background: `linear-gradient(90deg, var(--color-gold), var(--color-gold-light), var(--color-gold))` }}></div>
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
-          <Link href="/" className="flex items-center">
+          <Link href="/sector-46-gurgaon" className="flex items-center">
             <style>{`
               .privacy-logo { height: 48px; width: auto; display: block; object-fit: contain; transform-origin: left center; }
               @media(max-width: 768px) {
                 .privacy-logo { height: 40px; transform-origin: left center; }
               }
             `}</style>
-            <img src={logoImages.tarc} alt="Tata Orbis" className="privacy-logo" />
+            <img src={logoImages.tarc} alt="Shapoorji Pallonji Dualis" className="privacy-logo" />
           </Link>
           <Link
-            href="/"
+            href="/sector-46-gurgaon"
             className="btn-gold shadow-lg !text-[11px] !px-3 !py-2 sm:!text-sm sm:!px-6 sm:!py-3"
           >
             <span className="hidden sm:inline">BACK TO HOME</span><span className="sm:hidden">HOME</span>
@@ -72,7 +72,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <div className="flex items-center justify-center gap-2 text-white/80 text-sm" style={{ fontFamily: 'var(--font-sans)' }}>
-            <Link href="/" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
+            <Link href="/sector-46-gurgaon" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
             <span>›</span>
             <span>Privacy Policy</span>
           </div>
@@ -95,10 +95,10 @@ export default function PrivacyPolicy() {
             <p className="mb-6 sm:mb-8 text-sm sm:text-base" style={{ lineHeight: 1.8, color: '#444', fontFamily: 'var(--font-jost), Jost, sans-serif' }}>
               At{' '}
               <Link
-                href="/"
+                href="/sector-46-gurgaon"
                 style={{ color: 'var(--color-gold-dark)', fontWeight: '600' }}
               >
-                tatarealtyghansoli.co.in
+                Shapoorji Pallonji Dualis, Sector 46
               </Link>{' '}
               (Authorized Marketing Partner), we respect your privacy and are committed to safeguarding your personal data. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
             </p>
@@ -309,8 +309,8 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 Tata Orbis. All rights reserved |{' '}
-          <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
+          &copy; 2026 Shapoorji Pallonji Dualis. All rights reserved |{' '}
+          <Link href="/sector-46-gurgaon" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>
     </main>
