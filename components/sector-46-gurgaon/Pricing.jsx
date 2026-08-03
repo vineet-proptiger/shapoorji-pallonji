@@ -2,7 +2,7 @@ import { Check, BedDouble } from "lucide-react";
 
 const F_SANS = "var(--font-sans), Open Sans, sans-serif";
 const THEME_BLUE = "#000242";
-const GOLD = "#c28522";
+const GOLD = "#CA6A27";
 
 const units = [
   {
@@ -91,7 +91,7 @@ const Pricing = ({ setIsOpen }) => {
                 <HexShape color={unit.isPopular ? GOLD : THEME_BLUE} />
                 
                 {unit.isPopular && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#c28522] text-white text-[10px] font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-sm">
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#CA6A27] text-white text-[10px] font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-sm">
                     MOST PREFERRED
                   </div>
                 )}
@@ -113,7 +113,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Price Section */}
               <div className="text-center mb-6 h-[70px] flex flex-col justify-end">
                 <p className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-1" style={{ fontFamily: F_SANS }}>Starting At</p>
-                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#c28522]' : 'text-[#000242]'}`} style={{ fontFamily: F_SANS }}>
+                <p className={`text-[28px] font-bold ${unit.isPopular ? 'text-[#CA6A27]' : 'text-[#000242]'}`} style={{ fontFamily: F_SANS }}>
                   {unit.price}
                 </p>
               </div>
@@ -135,8 +135,8 @@ const Pricing = ({ setIsOpen }) => {
                 onClick={() => setIsOpen(true)}
                 className={`w-full max-w-[220px] py-3.5 rounded-md text-[13px] font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg border-2
                   ${unit.isPopular 
-                    ? 'bg-[#c28522] border-[#c28522] text-white hover:bg-[#a6711a]' 
-                    : 'bg-[#000242] border-[#000242] text-white hover:bg-white hover:text-[#000242]'}`}
+                    ? 'bg-[#CA6A27] border-[#CA6A27] text-white hover:bg-[#b3581e]' 
+                    : 'bg-[#CA6A27] border-[#CA6A27] text-white hover:bg-[#b3581e]'}`}
               >
                 {unit.btnText}
               </button>

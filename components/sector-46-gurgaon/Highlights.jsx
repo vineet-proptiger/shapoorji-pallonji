@@ -34,7 +34,7 @@ const Highlights = () => {
         }
 
         .highlight_section .heading {
-          color: #d3be8a;
+          color: #CA6A27;
           font-family: "Montserrat", sans-serif;
           font-size: 46px;
           font-weight: 500;
@@ -103,7 +103,7 @@ const Highlights = () => {
       <div className="parallax"></div>
 
       <div className="container-fluid max-w-[1300px] mx-auto relative z-10 py-[70px]">
-        <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#d3be8a] text-center" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '10px' }}>
+        <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#CA6A27] text-center" data-aos="fade-up" data-aos-duration="1000" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '10px' }}>
           DESIGNED FOR COMFORT, WELLNESS &amp; LEISURE AT SHAPOORJI DUALIS SECTOR 46
         </h2>
         {/* Decorative Line */}
@@ -116,24 +116,24 @@ const Highlights = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border border-white/20 rounded-[20px] mt-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style={{ position: 'relative' }}>
           
           {/* Corner Accents */}
-          <div style={{ position: 'absolute', top: -1, left: -1, width: '24px', height: '24px', borderTop: '1.5px solid #d3be8a', borderLeft: '1.5px solid #d3be8a', borderTopLeftRadius: '20px' }}></div>
-          <div style={{ position: 'absolute', top: -1, right: -1, width: '24px', height: '24px', borderTop: '1.5px solid #d3be8a', borderRight: '1.5px solid #d3be8a', borderTopRightRadius: '20px' }}></div>
-          <div style={{ position: 'absolute', bottom: -1, left: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #d3be8a', borderLeft: '1.5px solid #d3be8a', borderBottomLeftRadius: '20px' }}></div>
-          <div style={{ position: 'absolute', bottom: -1, right: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #d3be8a', borderRight: '1.5px solid #d3be8a', borderBottomRightRadius: '20px' }}></div>          {/* Item 1 */}
+          <div style={{ position: 'absolute', top: -1, left: -1, width: '24px', height: '24px', borderTop: '1.5px solid #CA6A27', borderLeft: '1.5px solid #CA6A27', borderTopLeftRadius: '20px' }}></div>
+          <div style={{ position: 'absolute', top: -1, right: -1, width: '24px', height: '24px', borderTop: '1.5px solid #CA6A27', borderRight: '1.5px solid #CA6A27', borderTopRightRadius: '20px' }}></div>
+          <div style={{ position: 'absolute', bottom: -1, left: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #CA6A27', borderLeft: '1.5px solid #CA6A27', borderBottomLeftRadius: '20px' }}></div>
+          <div style={{ position: 'absolute', bottom: -1, right: -1, width: '24px', height: '24px', borderBottom: '1.5px solid #CA6A27', borderRight: '1.5px solid #CA6A27', borderBottomRightRadius: '20px' }}></div>          {/* Item 1 */}
           <div className="p-10 border-b lg:border-b border-white/20 lg:border-r flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 22v-6"></path>
                 <path d="M17 8C17 4.5 14.5 2 12 2S7 4.5 7 8c-2.5 0-4.5 2-4.5 4.5 0 2 1.5 3.5 3.5 3.5h12c2 0 3.5-1.5 3.5-3.5C21.5 10 19.5 8 17 8z"></path>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">GLOBAL DESIGN EXCELLENCE</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">GLOBAL DESIGN EXCELLENCE</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">Crafted by Shapoorji Pallonji with globally renowned consultants.</p>
           </div>
 
           {/* Item 2 */}
           <div className="p-10 border-b lg:border-b border-white/20 lg:border-r flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
                 <line x1="9" y1="22" x2="15" y2="22"></line>
@@ -149,13 +149,13 @@ const Highlights = () => {
                 <line x1="12" y1="18" x2="12" y2="22"></line>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">PANORAMIC SKYLINE VIEWS</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">PANORAMIC SKYLINE VIEWS</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">Enjoy breathtaking panoramic skyline views from every residence.</p>
           </div>
 
           {/* Item 3 */}
           <div className="p-10 border-b lg:border-b border-white/20 flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
                 <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
@@ -165,37 +165,37 @@ const Highlights = () => {
                 <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">270° WRAPAROUND BALCONIES</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">270° WRAPAROUND BALCONIES</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">Expansive wraparound balconies offering spectacular 270° views.</p>
           </div>
 
           {/* Item 4 */}
           <div className="p-10 border-b md:border-b-0 lg:border-r border-white/20 flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 <path d="M8 11l4-3 4 3v4h-8v-4z"></path>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">3-SIDE OPEN RESIDENCES</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">3-SIDE OPEN RESIDENCES</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">Thoughtfully designed homes with abundant light and cross ventilation.</p>
           </div>
 
           {/* Item 5 */}
           <div className="p-10 border-b md:border-b-0 lg:border-r border-white/20 flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                 <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">60,000 SQ. FT. CLUBHOUSE</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">60,000 SQ. FT. CLUBHOUSE</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">A grand clubhouse with world-class leisure and wellness amenities.</p>
           </div>
 
           {/* Item 6 */}
           <div className="p-10 flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#d3be8a' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ background: '#CA6A27' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
                 <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -204,7 +204,7 @@ const Highlights = () => {
                 <path d="M10 16h4"></path>
               </svg>
             </div>
-            <h3 className="text-[#d3be8a] font-bold text-[15px] uppercase tracking-wider mb-3">PRIME LOCATION</h3>
+            <h3 className="text-[#CA6A27] font-bold text-[15px] uppercase tracking-wider mb-3">PRIME LOCATION</h3>
             <p className="text-white/80 text-[14px] leading-relaxed">Strategically located in Sector 46 with seamless city connectivity.</p>
           </div>
 

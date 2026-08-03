@@ -107,8 +107,8 @@ const Overview = ({ setIsOpen }) => {
         letter-spacing: 0.5px;
       }
       .theme_btn1:hover {
-        background: #d3be8a;
-        color: #000242;
+        background: #CA6A27;
+        color: #ffffff;
       }
       .image_caption_wrap img {
         width: 100%;
@@ -154,12 +154,12 @@ const Overview = ({ setIsOpen }) => {
             
             {/* Info Boxes */}
             <div 
-              className="flex flex-col md:flex-row border border-[#d3be8a] rounded-2xl overflow-hidden" 
+              className="flex flex-col md:flex-row border border-[#CA6A27] rounded-2xl overflow-hidden" 
               data-aos="fade-up" 
               data-aos-duration="1000" 
               data-aos-delay="200"
             >
-              <div className="w-full md:w-1/2 p-4 md:p-5 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-col justify-center">
+              <div className="w-full md:w-1/2 p-4 md:p-5 border-b md:border-b-0 md:border-r border-[#CA6A27] flex flex-col justify-center">
                 <p style={{ color: '#999', fontSize: '11px', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '6px' }}>Land Parcel:</p>
                 <h3 style={{ color: '#000', fontSize: '15px', fontWeight: '700', textTransform: 'uppercase' }}>2 ACRES PRIME<br/>LANDMARK DEVELOPMENT</h3>
               </div>

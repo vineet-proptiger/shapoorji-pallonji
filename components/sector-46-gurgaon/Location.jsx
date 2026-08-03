@@ -29,7 +29,7 @@ const Location = () => {
         {/* Section Header */}
         <div style={{ marginBottom: '50px', textAlign: 'center' }} data-aos="fade-down" data-aos-duration="1000">
            <h2
-             className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#d3be8a]"
+             className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#CA6A27]"
              style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '12px' }}
            >
              LOCATION ADVANTAGES
@@ -124,7 +124,7 @@ const Location = () => {
           <div className="w-full lg:flex-1 lg:order-1 flex flex-col justify-center" data-aos="fade-right" data-aos-duration="1000">
             <div style={{
               overflow: 'hidden',
-              border: '1px solid #D5C2A8',
+              border: '1px solid #CA6A27',
               borderRadius: '16px',
               width: '100%',
               height: '100%',
@@ -147,7 +147,7 @@ const Location = () => {
               />
               <div style={{
                 position: 'absolute', bottom: '16px', left: '16px', zIndex: 10,
-                background: 'var(--color-gold, #c9a96e)', opacity: 0.95, backdropFilter: 'blur(6px)',
+                background: 'var(--color-gold, #CA6A27)', opacity: 0.95, backdropFilter: 'blur(6px)',
                 borderRadius: '8px', padding: '6px 14px',
                 display: 'flex', alignItems: 'center', gap: '6px',
                 pointerEvents: 'none',

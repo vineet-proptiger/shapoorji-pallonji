@@ -66,7 +66,7 @@ const ExclusiveAmenities = () => {
                 textAlign: 'center',
               }}>
                 {/* Icon */}
-                <div className="w-[80px] h-[80px] rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-105 transition-transform duration-300" style={{ background: '#C9A96E' }}>
+                <div className="w-[80px] h-[80px] rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-105 transition-transform duration-300" style={{ background: '#CA6A27' }}>
                   <item.icon size={36} strokeWidth={1.5} />
                 </div>
                 

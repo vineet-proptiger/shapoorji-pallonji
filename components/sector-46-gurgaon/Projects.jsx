@@ -74,7 +74,7 @@ const Projects = ({ setIsOpen }) => {
           transition: color 0.3s ease;
         }
         .project-card:hover .project-label {
-          color: #c9a96e;
+          color: #CA6A27;
         }
         @media (min-width: 640px) {
           .project-card {
@@ -113,13 +113,12 @@ const Projects = ({ setIsOpen }) => {
         {/* Section Header */}
         <div data-aos="fade-up" data-aos-duration="1000" className="mb-10 sm:mb-12">
           <h2 className="text-[22px] sm:text-[30px] md:text-[38px] font-semibold leading-tight uppercase tracking-wider text-[#000242] text-center" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '10px' }}>
-            ICONIC LANDMARKS &amp; PROJECTS
-          </h2>
+         PROJECTS DELIVERED BY SHAPOORJI PALLONJI          </h2>
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-2.5 mb-4">
-            <div className="w-16 h-[1px] bg-[#c9a96e]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#c9a96e] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#c9a96e]"></div>
+            <div className="w-16 h-[1px] bg-[#CA6A27]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#CA6A27] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#CA6A27]"></div>
           </div>
           {/* <p className="text-gray-600 font-normal text-[14px] sm:text-[17px] text-center max-w-2xl mx-auto tracking-wide font-['Poppins'] px-2">
             A timeless legacy of engineering marvels and landmark masterpieces crafted across the nation.
@@ -159,7 +158,7 @@ const Projects = ({ setIsOpen }) => {
           <div className="see-more-btn-container" data-aos="fade-up">
             <button
               onClick={() => setShowAll(!showAll)}
-              className="px-8 py-3.5 bg-[#000242] hover:bg-[#c9a96e] text-white font-semibold rounded-full uppercase tracking-widest text-[13px] sm:text-[15px] transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-1 flex items-center gap-2"
+              className="px-8 py-3.5 bg-[#CA6A27] hover:bg-[#b3581e] text-white font-semibold rounded-full uppercase tracking-widest text-[13px] sm:text-[15px] transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-1 flex items-center gap-2"
               style={{ fontFamily: "Montserrat, sans-serif" }}
             >
               <span>{showAll ? 'Show Less' : 'See More'}</span>

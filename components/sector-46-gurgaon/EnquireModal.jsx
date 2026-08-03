@@ -42,7 +42,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
         className="relative w-full max-w-[92vw] sm:w-[440px] h-auto rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.5)] flex flex-col justify-center items-center p-8 mx-auto"
         style={{
           background: 'radial-gradient(circle at center, #0a1033 0%, #000215 100%)',
-          border: '1px solid #c9a65a',
+          border: '1px solid #CA6A27',
           animation: 'slideInRight 0.45s cubic-bezier(0.22,1,0.36,1) forwards',
         }}
         onClick={(e) => e.stopPropagation()}
@@ -51,17 +51,17 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
           <div className="text-center mb-5 flex flex-col items-center">
             <button
               onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 z-20 text-black hover:text-black hover:scale-110 transition-all flex items-center justify-center shadow-lg"
+              className="absolute top-4 right-4 z-20 text-white hover:text-white hover:scale-110 transition-all flex items-center justify-center shadow-lg"
               style={{ 
                 width: '28px', 
                 height: '28px', 
                 borderRadius: '50%', 
-                background: '#c9a65a' 
+                background: '#CA6A27' 
               }}
             >
               <X size={16} strokeWidth={2.5} />
             </button>
-            <h3 className="text-xl sm:text-2xl font-bold tracking-wider mb-2 uppercase" style={{ fontFamily: F_JOST, color: '#c9a65a' }}>
+            <h3 className="text-xl sm:text-2xl font-bold tracking-wider mb-2 uppercase" style={{ fontFamily: F_JOST, color: '#CA6A27' }}>
               Enquire Now
             </h3>
             <p className="text-white text-[13px]" style={{ fontFamily: F_SANS }}>

@@ -43,13 +43,13 @@ const MasterPlan = ({ setIsOpen }) => {
           <div className="flex justify-center items-center">
             <button 
               onClick={() => setActiveTab('master')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all border border-[#000242] ${activeTab === 'master' ? 'bg-[#000242] text-white' : 'bg-transparent text-[#000242]'}`}
+              className={`px-8 py-3 text-[17px] font-medium transition-all border border-[#CA6A27] ${activeTab === 'master' ? 'bg-[#CA6A27] text-white' : 'bg-transparent text-[#CA6A27]'}`}
             >
               Master Plan
             </button>
             <button 
               onClick={() => setActiveTab('floor')}
-              className={`px-8 py-3 text-[17px] font-medium transition-all border border-l-0 border-[#000242] ${activeTab === 'floor' ? 'bg-[#000242] text-white' : 'bg-transparent text-[#000242]'}`}
+              className={`px-8 py-3 text-[17px] font-medium transition-all border border-l-0 border-[#CA6A27] ${activeTab === 'floor' ? 'bg-[#CA6A27] text-white' : 'bg-transparent text-[#CA6A27]'}`}
             >
               Floor Plan
             </button>
@@ -67,7 +67,7 @@ const MasterPlan = ({ setIsOpen }) => {
                   className="w-full h-auto mx-auto filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                  <span className="bg-[#000242] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
+                  <span className="bg-[#CA6A27] text-white px-7 py-4 text-[14px] sm:text-[15px] leading-snug font-semibold uppercase tracking-wider text-center shadow-md">
                     Download<br/>Master Plan
                   </span>
                 </div>
@@ -86,7 +86,7 @@ const MasterPlan = ({ setIsOpen }) => {
                       className="w-full h-full object-contain filter blur-[6px] group-hover:blur-[3px] transition-all duration-300" 
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-white/20">
-                      <span className="bg-[#000242] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
+                      <span className="bg-[#CA6A27] text-white px-5 py-3 text-[13px] leading-snug font-semibold uppercase tracking-wider text-center">
                         Download<br/>Floor Plans
                       </span>
                     </div>

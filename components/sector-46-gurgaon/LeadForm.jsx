@@ -72,10 +72,10 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
   )
 
   const dynamicInputClass = isTransparent 
-    ? "w-full mb-3 px-4 py-2 bg-transparent text-white placeholder-gray-400 outline-none transition-colors border rounded-md focus:border-[#c9a65a]"
+    ? "w-full mb-3 px-4 py-2 bg-transparent text-white placeholder-gray-400 outline-none transition-colors border rounded-md focus:border-[#CA6A27]"
     : "w-full mb-3 px-4 py-2 bg-white text-gray-900 placeholder-gray-400 outline-none transition-colors border rounded-md shadow-sm focus:border-[var(--color-gold)]";
 
-  const dynamicInputStyle = isTransparent ? { fontFamily: F_SANS, borderColor: 'rgba(201, 166, 90, 0.4)' } : { fontFamily: F_SANS, borderColor: '#e5e7eb' };
+  const dynamicInputStyle = isTransparent ? { fontFamily: F_SANS, borderColor: 'rgba(202, 106, 39, 0.4)' } : { fontFamily: F_SANS, borderColor: '#e5e7eb' };
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-1 w-full">
@@ -98,8 +98,8 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
       <button type="submit" disabled={loading}
         className="mt-5 font-bold uppercase tracking-wider transition-transform hover:scale-105 disabled:opacity-70 disabled:hover:scale-100"
         style={{ 
-          background: '#c9a65a', 
-          color: '#111', 
+          background: '#CA6A27', 
+          color: '#ffffff', 
           padding: '12px 24px', 
           width: '180px', 
           margin: '20px auto 0',

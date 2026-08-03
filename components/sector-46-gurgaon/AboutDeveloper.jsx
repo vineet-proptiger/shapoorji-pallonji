@@ -113,7 +113,7 @@ const ContactForm = () => {
       </label>
 
       <button type="submit" disabled={loading}
-        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#000242] text-white border-2 border-[#000242] hover:bg-white hover:text-[#000242]"
+        className="w-full py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300 rounded-none flex items-center justify-center gap-2 bg-[#CA6A27] text-white border-2 border-[#CA6A27] hover:bg-[#b3581e] hover:border-[#b3581e] hover:text-white"
         style={{ marginTop: '4px' }}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
@@ -131,7 +131,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
       {/* Heading */}
       {/* <div className="text-center mb-12 md:mb-[50px]" data-aos="fade-down" data-aos-duration="1000">
         <h2
-          className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#d3be8a] drop-shadow-md"
+          className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#CA6A27] drop-shadow-md"
           style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}
         >
           About the Developer

@@ -295,7 +295,7 @@ const Hero = ({ setIsOpen }) => {
             flex-direction: column !important;
             height: auto !important;
             aspect-ratio: auto;
-            background: #0F172A !important;
+            background: #ffffff !important;
             padding-top: 56px !important;
           }
           .hero-slider-wrapper {
@@ -318,37 +318,22 @@ const Hero = ({ setIsOpen }) => {
           }
             .hero-content {
               position: relative !important;
-              background: #0F172A !important;
+              background: #ffffff !important;
               padding: 24px 20px 28px !important;
               z-index: 1;
             }
             .hero-content::before {
-              content: '';
-              position: absolute;
-              inset: 0;
-              background-color: #C9A65A;
-              -webkit-mask-image: url('/sector-46-gurgaon/images/hero/leaf-bg.png');
-              mask-image: url('/sector-46-gurgaon/images/hero/leaf-bg.png');
-              -webkit-mask-size: contain;
-              mask-size: contain;
-              -webkit-mask-position: center center;
-              mask-position: center center;
-              -webkit-mask-repeat: no-repeat;
-              mask-repeat: no-repeat;
-              opacity: 1;
-              filter: drop-shadow(0 0 1px #C9A65A) drop-shadow(0 0 2px #C9A65A) drop-shadow(0 0 4px #C9A65A) brightness(1.3);
-              z-index: -1;
-              pointer-events: none;
+              display: none !important;
             }
             .hero-overlay {
               display: none !important;
             }
             .hero-title {
-              color: #C9A65A !important;
+              color: #CA6A27 !important;
               text-shadow: none !important;
             }
             .hero-subtitle, .hero-price-line, .hero-price-amt, .hero-bullet-text, .hero-price-digits {
-              color: #ffffff !important;
+              color: #000000 !important;
               text-shadow: none !important;
             }
             .hero-subtitle {
@@ -358,12 +343,12 @@ const Hero = ({ setIsOpen }) => {
               font-size: 17px !important;
             }
             .hero-subtitle span {
-              color: #ffffff !important;
+              color: #000000 !important;
               opacity: 0.9;
             }
             .hero-bullet-item svg {
-              background-color: rgba(255,255,255,0.1) !important;
-              stroke: #C9A65A !important;
+              background-color: transparent !important;
+              stroke: #CA6A27 !important;
             }
             .hero-cta-row {
               flex-direction: column !important;
@@ -383,14 +368,14 @@ const Hero = ({ setIsOpen }) => {
             }
             .hero-cta-row > a.btn-brand,
             .hero-cta-row > button.btn-brand {
-              background: #C9A65A !important;
-              color: #111827 !important;
+              background: #CA6A27 !important;
+              color: #ffffff !important;
               border-color: transparent !important;
               font-weight: 800 !important;
             }
             .hero-cta-row .hero-btn-one {
-              color: #ffffff !important;
-              border-color: #ffffff !important;
+              color: #000000 !important;
+              border-color: #000000 !important;
               background: transparent !important;
             }
             .hero-rera {
@@ -445,7 +430,7 @@ const Hero = ({ setIsOpen }) => {
             "By the Makers of India's Iconic Atal Setu"
           ].map((text, i) => (
           <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C9A96E)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #CA6A27)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
               <polyline points="20 6 9 17 4 12" />
             </svg>
             <span className="hero-bullet-text" style={{ color: '#fff', fontFamily: 'var(--font-sans), Open Sans, sans-serif', fontSize: 'clamp(13px, 1.5vw, 18px)', fontWeight: '500', letterSpacing: '0.02em', textShadow: '0 1px 4px rgba(0,0,0,0.5)' }}>
@@ -487,7 +472,7 @@ const Hero = ({ setIsOpen }) => {
           <button
             onClick={() => setIsOpen(true)}
             className="btn-brand hero-btn-pill"
-            style={{ fontSize: '12px', padding: '11px 22px', textTransform: 'uppercase' }}
+            style={{ fontSize: '12px', padding: '11px 22px', textTransform: 'uppercase', background: '#CA6A27', color: '#ffffff', border: 'none' }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>

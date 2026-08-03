@@ -66,8 +66,7 @@ export default function Home() {
       <EnquireModal isOpen={isOpen} setIsOpen={setIsOpen} />
 
       {/* Floating Vertical Enquire Tab — Desktop only */}
-      <div 
-        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-normal tracking-[0.4px] whitespace-nowrap bg-[#000242] items-center justify-center gap-[6px] hover:bg-white hover:text-[#000242] transition-colors duration-300"
+      <div        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-normal tracking-[0.4px] whitespace-nowrap bg-[#CA6A27] items-center justify-center gap-[6px] hover:bg-[#b3581e] hover:text-white transition-colors duration-300"
         style={{
           top: '50%',
           right: '10px',
@@ -96,7 +95,7 @@ export default function Home() {
           transform-origin: center;
         }
         @keyframes whatsappGlow {
-          0% { box-shadow: 0 0 0 0 rgba(44, 211, 111, 0.7); transform: scale(1); }
+          0% { box-shadow: 0 0 0 0 rgba(44, 211, 111, 0.75); transform: scale(1); }
           40% { box-shadow: 0 0 0 9px rgba(44, 211, 111, 0); transform: scale(1.04); }
           80%, 100% { box-shadow: 0 0 0 0 rgba(44, 211, 111, 0); transform: scale(1); }
         }
@@ -118,11 +117,11 @@ export default function Home() {
           onClick={() => setIsOpen(true)}
           className="flex-grow flex items-center justify-center gap-2 py-3 px-4 rounded-full"
           style={{
-            background: 'linear-gradient(135deg, #d8be8d 0%, #b89552 100%)',
-            color: '#13192b',
+            background: '#CA6A27',
+            color: '#ffffff',
             border: 'none',
             outline: 'none',
-            boxShadow: '0 4px 12px rgba(201, 169, 110, 0.2)'
+            boxShadow: '0 4px 12px rgba(202, 106, 39, 0.25)'
           }}
         >
           <svg className="w-[18px] h-[18px] sm:w-5 sm:h-5 animate-enquire-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -9,15 +9,15 @@
    ═══════════════════════════════════════════════════════════════ */
 :root {
   /* ── Brand Gold Theme ── */
-  --color-gold: #C9A96E;        
-  --color-gold-light: #d8be8d;
-  --color-gold-dark: #b89552;
-  --color-gold-bg: rgba(201, 169, 110, 0.1);     
+  --color-gold: #CA6A27;        
+  --color-gold-light: #d67b3a;
+  --color-gold-dark: #b3581e;
+  --color-gold-bg: rgba(202, 106, 39, 0.1);     
 
   /* ── Brand Primary ── */
-  --color-brand: #C9A96E;
-  --color-brand-hover: #b89552;
-  --color-brand-light: rgba(201, 169, 110, 0.08);
+  --color-brand: #CA6A27;
+  --color-brand-hover: #b3581e;
+  --color-brand-light: rgba(202, 106, 39, 0.08);
 
   /* ── Brown Text (nav links, headings) ── */
   --color-nav-text: #684C1B;
@@ -304,9 +304,9 @@
   .btn-gold {
     position: relative;
     overflow: hidden;
-    background: var(--color-gold);
+    background: #CA6A27;
     color: #fff;
-    border: 2px solid var(--color-gold);
+    border: 2px solid #CA6A27;
     border-radius: var(--btn-radius-pill);
     padding: 12px 32px;
     font-family: var(--font-jost), 'Montserrat', sans-serif;
@@ -319,7 +319,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(201, 169, 110, 0.35);
+    box-shadow: 0 4px 14px rgba(202, 106, 39, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -343,15 +343,15 @@
 
   .btn-gold:hover {
     background: #ffffff !important;
-    color: var(--color-gold) !important;
-    border-color: var(--color-gold);
+    color: #CA6A27 !important;
+    border-color: #CA6A27;
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(201, 169, 110, 0.30);
+    box-shadow: 0 12px 28px rgba(202, 106, 39, 0.30);
   }
 
   .btn-gold:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(201, 169, 110, 0.20);
+    box-shadow: 0 4px 10px rgba(202, 106, 39, 0.20);
   }
 
   /* ══ OUTLINED RED BUTTON ══ */
@@ -388,9 +388,9 @@
   .btn-primary {
     position: relative;
     overflow: hidden;
-    background: var(--color-gold);
+    background: #CA6A27;
     color: #fff;
-    border: 2px solid var(--color-gold);
+    border: 2px solid #CA6A27;
     border-radius: var(--btn-radius-pill);
     padding: 12px 32px;
     font-family: var(--font-jost), 'Montserrat', sans-serif;
@@ -403,29 +403,29 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(201, 169, 110, 0.35);
+    box-shadow: 0 4px 14px rgba(202, 106, 39, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
 
   .btn-primary:hover {
     background: #ffffff !important;
-    color: var(--color-gold) !important;
-    border-color: var(--color-gold);
+    color: #CA6A27 !important;
+    border-color: #CA6A27;
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(201, 169, 110, 0.30);
+    box-shadow: 0 12px 28px rgba(202, 106, 39, 0.30);
   }
 
   .btn-primary:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(201, 169, 110, 0.20);
+    box-shadow: 0 4px 10px rgba(202, 106, 39, 0.20);
   }
 
   /* ══ BRAND RED BUTTON (Krisumi style) ══ */
   .btn-brand {
-    background: var(--color-brand);
+    background: #CA6A27;
     color: #fff;
-    border: 2px solid var(--color-brand) !important;
+    border: 2px solid #CA6A27 !important;
     padding: 14px 32px;
     display: inline-flex;
     align-items: center;
@@ -443,8 +443,8 @@
 
   .btn-brand:hover {
     background: #ffffff !important;
-    color: var(--color-brand) !important;
-    border-color: var(--color-brand) !important;
+    color: #CA6A27 !important;
+    border-color: #CA6A27 !important;
     transform: translateY(-3px);
   }
 
@@ -475,18 +475,18 @@
     filter: drop-shadow(-6px 0 20px rgba(201, 169, 110, 0.35));
   }
 
-  /* ══ GLOBAL BUTTON OVERRIDE (Gold Gradient) ══ */
-  .btn-gold, .btn-gold-outline, .btn-primary, .btn-brand {
-    background: #C9A65A !important;
-    color: #111827 !important;
+  /* ══ GLOBAL BUTTON OVERRIDE ══ */
+  .btn-gold, .btn-primary, .btn-brand, .btn-floating-tab {
+    background: #CA6A27 !important;
+    color: #ffffff !important;
     border-color: transparent !important;
     font-weight: 800 !important;
   }
 
-  .btn-gold:hover, .btn-gold-outline:hover, .btn-primary:hover, .btn-brand:hover {
-    background: #ffffff !important;
-    color: #111827 !important;
-    border-color: #C9A65A !important;
+  .btn-gold:hover, .btn-primary:hover, .btn-brand:hover, .btn-floating-tab:hover {
+    background: #b3581e !important;
+    color: #ffffff !important;
+    border-color: #b3581e !important;
   }
 
   /* ══ SECTION TITLE ══ */
