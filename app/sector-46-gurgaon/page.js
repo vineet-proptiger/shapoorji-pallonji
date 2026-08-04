@@ -147,8 +147,7 @@ export default function Home() {
           </a>
           
           <a
-            href="https://wa.me/919718344024?text=Hi%2C%20I%20am%20interested%20in%20Tata%20Orbis%20Ghansoli"
-            target="_blank" rel="noopener noreferrer"
+           href="https://wa.me/919718344024?text=Hi%20I%20am%20interested%20in%20Shapoorji%20Pallonji%20Dualis"            target="_blank" rel="noopener noreferrer"
             className="flex flex-col items-center justify-center w-[51px] h-[51px] rounded-full text-white transition-all shadow-md shrink-0 gap-[2px] btn-whatsapp-glow"
             style={{ background: '#2cd36f' }}
           >
