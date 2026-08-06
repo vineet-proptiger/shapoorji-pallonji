@@ -301,20 +301,22 @@ const Hero = ({ setIsOpen }) => {
           .hero-slider-wrapper {
             position: relative;
             width: 100%;
-            height: auto;
-            aspect-ratio: 16/9;
+            height: auto !important;
+            aspect-ratio: auto !important;
+            overflow: hidden !important;
           }
           .slide-layer {
-            position: absolute !important;
-            inset: 0 !important;
+            position: relative !important;
+            inset: auto !important;
             width: 100%;
-            height: 100%;
+            height: auto !important;
           }
           .hero-image {
-            height: 100% !important;
+            height: auto !important;
             width: 100% !important;
-            object-fit: cover !important;
+            object-fit: contain !important;
             object-position: center !important;
+            display: block !important;
           }
             .hero-content {
               position: relative !important;
@@ -384,8 +386,8 @@ const Hero = ({ setIsOpen }) => {
           }
         `}} />
 
-      {/* ── Responsive Image Carousel (All Devices) ── */}
-      <div className="hero-slider-wrapper grid">
+      {/* ── Desktop Carousel ── */}
+      <div className="hero-slider-wrapper hidden md:grid">
         {slides.map((slide, index) => (
           <div 
             key={index} 
@@ -403,6 +405,21 @@ const Hero = ({ setIsOpen }) => {
             />
           </div>
         ))}
+      </div>
+
+      {/* ── Mobile Static Image (Full Uncropped Display) ── */}
+      <div className="hero-slider-wrapper grid md:hidden">
+        <div className="slide-layer active" style={{ gridArea: '1 / 1 / 2 / 2' }}>
+          <Image
+            src={heroImages.smDevice}
+            alt="Shapoorji Pallonji Dualis Mobile Banner"
+            width={1080}
+            height={1200}
+            className="hero-image desktop-hero-image"
+            priority={true}
+            sizes="100vw"
+          />
+        </div>
       </div>
 
       {/* ── Dark overlay for text legibility ── */}
