@@ -158,8 +158,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
             <div className="w-16 h-[1px] bg-[#7d9b93]"></div>
           </div>
           <p className="text-[19px] text-white font-medium leading-relaxed max-w-md drop-shadow-lg" style={{ fontFamily: F_SANS, textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
-            Let’s connect and bring your ideas to life. Reach out today for expert guidance, quick responses, and solutions tailored perfectly to your needs.
-          </p>
+         Take the first step toward luxury living. Connect with our specialists for the latest pricing, floor plans, payment plans, and priority booking assistance.          </p>
         </div>
 
         {/* Right — Contact Form */}

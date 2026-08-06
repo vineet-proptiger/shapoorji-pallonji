@@ -71,8 +71,7 @@ const ContactCTA = () => {
               Get In Touch
             </h2>
             <p className="text-lg text-gray-200 leading-relaxed max-w-md" style={{ fontFamily: F_SANS }}>
-              Let’s connect and bring your ideas to life. Reach out today for expert guidance, quick responses, and solutions tailored perfectly to your needs.
-            </p>
+      Take the first step toward luxury living. Connect with our specialists for the latest pricing, floor plans, payment plans, and priority booking assistance.            </p>
           </div>
 
           {/* Right Form Card */}
